@@ -88,5 +88,27 @@ public class SintaxeBasica {
                 modelo = false;
             }
         }
+
+
+        //============================================
+        // CASTING => Conversao de dados
+        //============================================
+
+
+        // EXEMPLO:
+        double resultado = 0.0;
+        // remove os numeros do ponto a diante para ser inteiro.
+        int resultadoInt = (int) resultado;
+
+        int meuInt = 10;
+        // apenas adiciona o numero inteiro ao double, indicando que agora ele pode ter numeros depois de um ponto.
+        double meuDouble = meuInt;
+
+        // TEMOS CASOS MAIS COMPLEXOS:
+
+        String minhaString = "10";
+        int meuNumeroInteiro = Integer.parseInt(minhaString); // Converte a String em Inteiro
+        String minhaString2 = String.valueOf(meuNumeroInteiro); // Converte o Inteiro para String
+
     }
 }
