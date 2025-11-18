@@ -88,6 +88,7 @@ public class SintaxeBasica {
                 modelo = false;
             }
         }
+        System.out.print("\n");
 
 
         //============================================
