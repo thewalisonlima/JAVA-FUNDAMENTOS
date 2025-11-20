@@ -1,5 +1,18 @@
 package basico;
 
+//============================================
+// MODIFICADORES DE ACESSO
+
+// Os pacotes sao as pastas que contem um conjunto de arquivos com classes, esses modificadores de acesso tambem podem ser usados em metodos e atributos.
+
+// public => Pode ser acessado de qualquer lugar (qualquer classe, qualquer pacote).
+// protected => Pode ser acessado dentro do mesmo pacote E por subclasses (mesmo que estejam em outros pacotes).
+// default (sem modificador) => Pode ser acessado apenas dentro do mesmo pacote (package-private).
+// private => Pode ser acessado apenas dentro da propria classe onde foi declarado.
+
+// NOTA: Classes top-level (principais do arquivo) so podem ser public ou default. Os modificadores private e protected so se aplicam a classes internas (nested/inner classes).
+//============================================
+
 public class POO {
     public POO() {
 
