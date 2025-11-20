@@ -8,7 +8,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         new SintaxeBasica();
         new POO();
-        Carro dados = new FiatUno();
+        Veiculo dados = new FiatUno();
 
         dados.acelerar();
         dados.freiar();

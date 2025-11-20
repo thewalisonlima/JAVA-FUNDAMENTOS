@@ -3,10 +3,14 @@ package basico;
 
 // O IMPLEMENTS SERVER PARA ADICIONAR A INTERFACE AO SEU METODO RESPECTIVO
 public class Veiculo implements Carro {
-    public Veiculo() {
+    protected int tempo; // So pode ser usado dentro do pacote
+
+    public Veiculo(int tempo) {
         String corrida = acelerar();
         freiar();
         parar();
+
+        this.tempo = tempo;
 
         System.out.println("O carro esta a " + corrida + " por hora");
     }
