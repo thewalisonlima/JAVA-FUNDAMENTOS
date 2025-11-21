@@ -3,6 +3,7 @@ import basico.Veiculo;
 import basico.FiatUno;
 import basico.POO;
 import basico.Carro;
+import swing.Panel;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -13,6 +14,8 @@ public class App {
         dados.acelerar();
         dados.freiar();
         dados.parar();
+
+        new Panel();
     }
 }
 
